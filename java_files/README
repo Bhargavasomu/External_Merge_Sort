@@ -1,6 +1,0 @@
-General Format of arguments for command line is
-./sort​ input.txt output.txt metadata.txt MainMemorySize(MB)​ sortOrder(asc or desc) column0 column1 . . .
-
-Examples -
-./sort​ input.txt output.txt metadata.txt 50​ asc c0 c1
-./sort​ input.txt output.txt​ metadata.txt 100​ desc​ c0
