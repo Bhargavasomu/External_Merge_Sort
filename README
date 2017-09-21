@@ -1,0 +1,19 @@
+Generate files from gensort using the below command
+    ./gensort -a 1000 input.txt
+The above command generates 1000 lines of tuples of 3 columns,each having a size of 100 Bytes
+and stores it under the name input.txt
+
+Command to run the code
+    1) javac sort.java
+    2) java sort input.txt output.txt metadata.txt MainMemorySize(MB)​ sortOrder(asc or desc) column0 column1 . . .
+
+General Format of arguments for command line is
+    java sort​ input.txt output.txt metadata.txt MainMemorySize(MB)​ sortOrder(asc or desc) column0 column1 . . .
+
+Examples -
+    java sort​ input.txt output.txt metadata.txt 50​ asc c0 c1
+    java sort​ input.txt output.txt​ metadata.txt 100​ desc​ c0
+
+Using Valsort to validate the answer
+    The commands "./valsort output.txt" gives the output as whether
+    or not the output file is in sorted order or not
